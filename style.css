@@ -13,3 +13,17 @@
 .three{
     background-color: rgb(90, 200, 65);
 }
+.four{
+    background-color: violet;
+}
+body {
+  text-align: center;
+}
+#outerBox {
+  width: 650px;
+  height: 650px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 350px 350px;
+}
